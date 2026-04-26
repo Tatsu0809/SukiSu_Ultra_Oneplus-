@@ -236,7 +236,7 @@ jobs:
         uses: ./.github/actions
         with:
           op_config_json: ${{ toJSON(matrix) }}
-          ksu_meta: 'susfs-main/⚡Ultra⚡/'
+          ksu_meta: ${{ inputs.ksu_meta }}
           lsm: ${{ inputs.lsm }}
           enable_zram: ${{ inputs.enable_zram }}
           sched: ${{ inputs.sched }}
