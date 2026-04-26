@@ -51,6 +51,9 @@ on:
           - OP-PAD-2
           - OP-PAD-PRO
         default: ALL
+      ksu_meta:
+        description: 'SukiSU Ultra Version'
+        type: string
       lsm:
         description: 'BBG LSM'
         type: boolean
